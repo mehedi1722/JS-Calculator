@@ -13,18 +13,18 @@
         <div class="container">
             <div class="Calculator">
                 <div class="result_area">
-                    <div class="history"><input type="text" value="10+10"></div>
-                    <div class="result"><input type="text" value="20"></div>
+                    <div class="history"><input id="history" type="text" value=""></div>
+                    <div class="result"><input id="result" type="text" value="20"></div>
                 </div>
                 <div class="Button_Area">
                     <input class="btn operator" type="button" value="C">
-                    <input class="btn operator" type="button" value="CE">
+                    <input class="btn operator clr" type="button" value="CE">
                     <input class="btn operator" type="button" value="%">
                     <input class="btn operator" type="button" value="/">
                     <input class="btn number" type="button" value="7">
                     <input class="btn number" type="button" value="8">
                     <input class="btn number" type="button" value="9">
-                    <input class="btn" type="button" value="&times;">
+                    <input class="btn operator" type="button" value="&times;">
                     <input class="btn number" type="button" value="4">
                     <input class="btn number" type="button" value="5">
                     <input class="btn number" type="button" value="6">
@@ -36,7 +36,7 @@
                     <input class="btn empty" type="button" value=" ">
                     <input class="btn number" type="button" value="0">
                     <input class="btn empty" type="button" value=" ">
-                    <input class="btn operator" type="button" value="=">
+                    <input class="btn operator" id="EqualBtn" type="button" value="=">
 
                 </div>
             </div>

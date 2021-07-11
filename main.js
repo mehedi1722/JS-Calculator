@@ -9,6 +9,15 @@ document.querySelector('.clr').addEventListener('click', function () {
 
 // All button function handler 
 const inputbtn = document.getElementsByClassName('number');
+const mainFourCal = document.getElementsByClassName('mainFourCal');
+
+for (let i = 0; i < mainFourCal.length; i++) {
+    const numberBtn = mainFourCal[i];
+    numberBtn.addEventListener('click', function (e) {
+        const plusMinus = e.target.value
+        history.value = history.value + plusMinus;
+    })
+}  
 
 for (let i = 0; i < inputbtn.length; i++) {
     const numberBtn = inputbtn[i];
@@ -16,7 +25,8 @@ for (let i = 0; i < inputbtn.length; i++) {
         const inputValue = e.target.value
         history.value = history.value + inputValue;
     })
-}  
+} 
+
 
 
 // Equal button handler ---

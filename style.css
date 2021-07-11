@@ -21,6 +21,8 @@ body{
 .result_area {
     line-height: 2;
     text-align: right;
+    box-shadow: 0 0 1px black;
+    border-radius: 10px;
 }
 
 .result_area input {
@@ -33,6 +35,7 @@ body{
     color: #3e3c3c;
     border: none;
     outline: none;
+    border-radius: 10px;
 }
 
 input.btn {
